@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SlideShow/Carousel</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <div class="slideshow-container">
+
+    <div class="image-container">
+      <img src="image1.jpg" class="image fade" />
+    </div>
+    <div class="image-container">
+      <img src="image2.jpg" class="image fade" />
+    </div>
+    <div class="image-container">
+      <img src="image3.jpg" class="image fade" />
+    </div>
+
+    <a class="prev" onclick="newSlide(-1)">&#10094;</a>
+    <a class="next" onclick="newSlide(1)">&#10095;</a>
+
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+  </div>
+
+  <div class="content">
+    <h2>SlideShow / Carousel</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+  </div>
+
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
